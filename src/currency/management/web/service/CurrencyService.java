@@ -37,6 +37,7 @@ public class CurrencyService {
 	 * @param typeSortie Devise vers laquelle nous voulons convertir (Type String)
 	 * @return Retourne un Double qui sera le résultat de la conversion
 	 */
+	
 	public Double conversion(double monnaieEntree, String typeEntree, String typeSortie) {
 		double monnaieSortie = 0;
 		

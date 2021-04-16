@@ -104,6 +104,7 @@ public class CurrencyResource {
 	 * @param currency Devise dont nous voulons les informations (Type String)
 	 * @return Retourne une réponse négative si la Currency n'a pas été trouvée, une réponse positive sinon 
 	 */
+	
 	@GET
 	@Path("/info/{currency}")
 	@Consumes(MediaType.APPLICATION_XML)

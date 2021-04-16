@@ -61,6 +61,7 @@ public class Currency {
 	 * Fonction qui met à jour la valeur de la Currency
 	 * @param value Nouvelle valeur de la Currency (Type Double)
 	 */
+	
 	public void setValue(double value) {
 		this.value = value;
 	}
