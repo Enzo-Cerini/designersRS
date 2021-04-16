@@ -44,7 +44,7 @@ La fonction add permet d'ajouter une nouvelle Currency à la liste des Currency 
 
 Elle retournera :
 * "The currency X has been added with the value Y" si l'ajout a bien été fait
-* "Adding for "+ name +" is impossible !" si l'ajout n'a pas pu aboutir
+* "Adding for X is impossible !" si l'ajout n'a pas pu aboutir
 
 
 
