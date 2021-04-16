@@ -78,7 +78,7 @@ Elle retournera :
 
 ### Demonstration du client
 
-~~~
+~~~ java
 public static void main(String[] args) {
 	add("Enzo",25);
 	getConversion(1, "Euro", "Enzo");
