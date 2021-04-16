@@ -68,7 +68,7 @@ Elle retournera :
 * "The conversion was not successful !" si la conversion n'a pas pu aboutir
 
 
-Enfin, la fonction getInfos est une fonction qui retourne les informations concernant une devise passée en paramètre. Elle prend uniquement un paramètre :
+Enfin, la fonction getInfos est une fonction qui récupère les informations d'une currency grâce à l'api de Wikipédia et qui retourne les informations concernant la devise passée en paramètre. Elle prend uniquement un paramètre :
 * La devise dont nous voulons les informations
 
 
