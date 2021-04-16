@@ -31,14 +31,14 @@ JAVADOC
 
 Notre client est implémenté dans notre classe Test.java. La classe Test est la classe permettant de tester à partir du client les fonctions associées aux Currency.
 
-Dans cette classe, différentes fonctions sont implémentée :
+Dans cette classe, différentes fonctions sont implémentées :
 * add(String name, double value)
 * update(String name, double newRate)
 * getConversion(double monnaieEntree, String typeEntree, String typeSortie)
 * String getInfos(String currency)
 
 
-La fonction add permet d'ajouter une nouvelle Currency à la liste des Currency déjà existante. Cette fonction add prend deux paramètre :
+La fonction add permet d'ajouter une nouvelle Currency à la liste des Currency déjà existante. Cette fonction add prend deux paramètres :
 * Le nom de la nouvelle Currency que nous voulons créer
 * La valeur que nous voulons lui affecter
 
@@ -68,7 +68,7 @@ Elle retournera :
 * "The conversion was not successful !" si la conversion n'a pas pu aboutir
 
 
-Enfin, la fonction getInfos est une fonction qui retourne un petit texte d'informations concernant une devise passée en paramètre. Elle prend uniquement un paramètre :
+Enfin, la fonction getInfos est une fonction qui retourne les informations concernant une devise passée en paramètre. Elle prend uniquement un paramètre :
 * La devise dont nous voulons les informations
 
 
