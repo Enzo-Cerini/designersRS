@@ -6,7 +6,6 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Classe qui permet de créer l'objet Currency
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
- * @date 15/04/2021
  *
  * Classe associée à la création d'une Currency.
  *

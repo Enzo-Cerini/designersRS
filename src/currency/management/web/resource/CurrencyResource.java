@@ -13,7 +13,6 @@ import currency.management.web.service.*;
  * Classe qui s'occupe de toutes les réponses vers le client concernant les fonctions sur les Currency
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
- * @date 15/04/2021
  *
  * Classe contenant les réponses faites au client concernant les fonctions associées aux Currency.
  */

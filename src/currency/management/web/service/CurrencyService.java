@@ -13,7 +13,6 @@ import currency.management.web.data.Currency;
  * Classe qui s'occupe de toutes les opérations concernant les Currency
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
- * @date 15/04/2021
  *
  * Classe contenant toutes les fonctions associées aux Currency.
  */
