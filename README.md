@@ -130,4 +130,4 @@ Ligne 9 : getConversion(50, "Euro", "Roupie");
 Cette ligne fera la conversion de 50 Euro en Roupie. Le message qui devrait s'afficher est "50 Euro => 4442.5 Roupie".
 
 Ligne 10 : getConversion(15, "Livre", "Yen");
-Cette ligne fera la conversion de 15 Livre en Yen. Le message qui devrait s'afficher est "15 Livre => 4442.5 Yen".
+Cette ligne fera la conversion de 15 Livre en Yen. Le message qui devrait s'afficher est "15 Livre => 2249.1379310343 Yen".
