@@ -103,10 +103,10 @@ public static void main(String[] args) {
 Afin de vous expliquer notre démonstration, nous allons vous expliquer test de notre client ligne par ligne :
 
 * Ligne 1 : add("Enzo",25);
-*  Cette ligne ajoutera une Currency nommée Enzo avec la valeur 25 aux Currency déjà existantes. Le message qui sera affiché si l'ajout aura bien été effectué sera "The currency Enzo has been added with the value 25"
+*     Cette ligne ajoutera une Currency nommée Enzo avec la valeur 25 aux Currency déjà existantes. Le message qui sera affiché si l'ajout aura bien été effectué sera "The currency Enzo has been added with the value 25"
 
 * Ligne 2 : getConversion(1, "Euro", "Enzo");
-*  Cette ligne fera la conversion d'1 Euro en Enzo. Si la ligne précédente a bien été effectuée, le message qui devrait s'afficher est "1 Euro => 25 Enzo"
+*     Cette ligne fera la conversion d'1 Euro en Enzo. Si la ligne précédente a bien été effectuée, le message qui devrait s'afficher est "1 Euro => 25 Enzo"
 
 * Ligne 3 : add("Avishka",32);
 *  Cette ligne ajoutera une Currency nommée Avishka avec la valeur 32 aux Currency déjà existantes. Le message qui sera affiché si l'ajout aura bien été effectué sera "The currency Avishka has been added with the value 32"
