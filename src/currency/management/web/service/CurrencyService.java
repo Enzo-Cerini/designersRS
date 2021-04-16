@@ -10,7 +10,7 @@ import currency.management.web.data.Currency;
 
 /**
  * @file CurrencyService.java
- * @brief Classe qui s'occupe de toutes les opérations concernant les Currency
+ * Classe qui s'occupe de toutes les opérations concernant les Currency
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
  * @date 15/04/2021
@@ -31,7 +31,7 @@ public class CurrencyService {
 
 	/**
 	 * Double conversion(double monnaieEntree, String typeEntree, String typeSortie)
-	 * @brief Fonction qui convertie une devise en une autre
+	 * Fonction qui convertie une devise en une autre
 	 * @param monnaieEntree Somme que nous voulons convertir (Type Double)
 	 * @param typeEntree Devise que nous voulons convertir (Type String)
 	 * @param typeSortie Devise vers laquelle nous voulons convertir (Type String)
@@ -74,7 +74,7 @@ public class CurrencyService {
 
 	/**
 	 * Currency addCurrency(String key, double nouvelleMonnaie)
-	 * @brief Fonction permettant d'ajouter une nouvelle Currency à la liste des Currency déjà existante 
+	 * Fonction permettant d'ajouter une nouvelle Currency à la liste des Currency déjà existante 
 	 * @param key Nom de la nouvelle Currency (Type String)
 	 * @param nouvelleMonnaie Valeur de la nouvelle Currency (Type Double)
 	 * @return Retourne la nouvelle Currency qui a été créée
@@ -87,7 +87,7 @@ public class CurrencyService {
 
 	/**
 	 * boolean updateCurrency(String name, double newRate)
-	 * @brief Fonction qui met à jour une Currency déjà existante
+	 * Fonction qui met à jour une Currency déjà existante
 	 * @param name Nom de la Currency que nous voulons changer (Type String)
 	 * @param newRate Nouvelle valeur que nous voulons attribuer à la Currency (Type Double)
 	 * @return Retourne true si l'opération s'est déroulée avec succès, false sinon
@@ -104,7 +104,7 @@ public class CurrencyService {
 	
 	/**
 	 * String readWikiApi(String word)
-	 * @brief Fonction qui retourne un petit texte d'informations concernant une devise passée en paramètre
+	 * Fonction qui retourne un petit texte d'informations concernant une devise passée en paramètre
 	 * @param word Devise dont nous voulons les informations (Type String)
 	 * @return Retourne un String avec les informations de la devise
 	 */

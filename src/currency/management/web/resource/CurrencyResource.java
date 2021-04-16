@@ -10,7 +10,7 @@ import currency.management.web.service.*;
 
 /**
  * @file CurrencyResource.java
- * @brief Classe qui s'occupe de toutes les réponses vers le client concernant les fonctions sur les Currency
+ * Classe qui s'occupe de toutes les réponses vers le client concernant les fonctions sur les Currency
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
  * @date 15/04/2021
@@ -23,12 +23,13 @@ public class CurrencyResource {
 	CurrencyService service = new CurrencyService();
 	ArrayList<Currency> conversionEuro;
 	
+	
 	@Context
 	UriInfo uriInfo;
 	
 	/**
 	 * Response addCurrency(String key, double nouvelleMonnaie)
-	 * @brief Fonction qui retourne une réponse au client après l'ajout d'une nouvelle Currency
+	 * Fonction qui retourne une réponse au client après l'ajout d'une nouvelle Currency
 	 * @param key Nom de la nouvelle Currency (Type String)
 	 * @param nouvelleMonnaie Valeur de la nouvelle Currency (Type Double)
 	 * @return Retourne une réponse positive si la Currency a été créée, une réponse négative sinon 
@@ -54,7 +55,7 @@ public class CurrencyResource {
 	
 	/**
 	 * Response conversion(double monnaieEntree, String typeEntree, String typeSortie)
-	 * @brief Fonction qui retourne une réponse au client après la conversion
+	 * Fonction qui retourne une réponse au client après la conversion
 	 * @param monnaieEntree Somme que nous voulons convertir (Type Double)
 	 * @param typeEntree Devise que nous voulons convertir (Type String)
 	 * @param typeSortie Devise vers laquelle nous voulons convertir (Type String)
@@ -81,7 +82,7 @@ public class CurrencyResource {
 
 	/**
 	 * Response updateCurrency(String name, double newRate)
-	 * @brief Fonction qui retourne une réponse au client après la mise à jour d'une Currency
+	 * Fonction qui retourne une réponse au client après la mise à jour d'une Currency
 	 * @param name Nom de la Currency que nous voulons changer (Type String)
 	 * @param newRate Nouvelle valeur que nous voulons attribuer à la Currency (Type Double)
 	 * @return Retourne une réponse positive si la Currency a été mise à jour, une réponse négative sinon 
@@ -99,7 +100,7 @@ public class CurrencyResource {
 	 
 	/**
 	 * Response info(String currency)
-	 * @brief Fonction qui retourne une réponse au client avec les informations concernant la devise
+	 * Fonction qui retourne une réponse au client avec les informations concernant la devise
 	 * @param currency Devise dont nous voulons les informations (Type String)
 	 * @return Retourne une réponse négative si la Currency n'a pas été trouvée, une réponse positive sinon 
 	 */
