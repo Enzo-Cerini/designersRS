@@ -75,3 +75,27 @@ Enfin, la fonction getInfos est une fonction qui retourne les informations conce
 Elle retournera :
 * Le texte d'informations si tout se passe bien
 * Un message d'erreur sinon
+
+### Demonstration du client
+
+~~~
+public static void main(String[] args) {
+		add("Enzo",25);
+		getConversion(1, "Euro", "Enzo");
+		
+		add("Avishka",32);
+		getConversion(1, "Euro", "Avishka");
+		
+		update("A",12);
+		
+		update("Enzo",20);
+		getConversion(1, "Euro", "Enzo");
+		
+		getConversion(22.3,"Dollar","Yen");
+		getConversion(50, "Euro", "Roupie");
+		getConversion(15, "Livre", "Yen");
+		
+		getInfos("Dollar");
+		getInfos("Roupie");
+	}
+~~~
