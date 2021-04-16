@@ -118,4 +118,16 @@ Ligne 5 : update("A",12);
 Cette ligne doit mettre à jour la Currency A avec la valeur 12. Or, la Currency A n'existe pas. Ainsi, un message d'erreur devrait apparaitre : "The update of the currency named A with the value 12 did not achieved !"
 
 Ligne 6 : update("Enzo",20);
-Cette ligne doit mettre à jour la Currency Enzo avec la valeur 20.
+Cette ligne doit mettre à jour la Currency Enzo avec la valeur 20. Si la mise à jour s'est bien passée, le message affiché sera "The currency named Enzo has been modified with the value 20"
+
+Ligne 7 : getConversion(1, "Euro", "Enzo");
+Cette ligne fera la conversion d'1 Euro en Enzo. Si la ligne précédente a bien été effectuée, le message qui devrait s'afficher est "1 Euro => 20 Enzo"
+
+Ligne 8 : getConversion(22.3,"Dollar","Yen");
+Cette ligne fera la conversion de 22.3 Dollar en Yen. Le message qui devrait s'afficher est "22.3 Dollar => 2444.5678 Yen".
+
+Ligne 9 : getConversion(50, "Euro", "Roupie");
+Cette ligne fera la conversion de 50 Euro en Roupie. Le message qui devrait s'afficher est "50 Euro => 4442.5 Roupie".
+
+Ligne 10 : getConversion(15, "Livre", "Yen");
+Cette ligne fera la conversion de 15 Livre en Yen. Le message qui devrait s'afficher est "15 Livre => 4442.5 Yen".
